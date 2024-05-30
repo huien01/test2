@@ -3,12 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Grande Food to Go</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 class="title">Welcome to Aunty Rants</h1>
-    <h3 class="title1">Rants about anything under the sun</h3>
-    <h4 class="title2" id="important">Have your say!</h4>
+    <header>
+        <img src="path/to/logo.png" alt="Grande Food to Go Logo">
+        <h1>Grande Food to Go</h1>
+        <p>An app to offer and share meals to go</p>
+        <p>This is a small scale pilot by a concerned kaypoh resident</p>
+        <p>If you have any feedback or are an interested resident, please contact the app developer at 
+            <a href="mailto:huien01@gmail.com">huien01@gmail.com</a>
+        </p>
+    </header>
+
+    <section id="table-section">
+        <p>I understand that this may send me to a new google form</p>
+        <table id="data-table">
+            <thead>
+                <tr>
+                    <th>Column E</th>
+                    <th>Column F</th>
+                    <th>Column G</th>
+                    <th>Column I</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data will be populated here by JavaScript -->
+            </tbody>
+        </table>
+    </section>
+
+    <section id="forms-section">
+        <button id="offer-food">I am interested to offer food</button>
+        <button id="get-food">I am interested in getting good food to go</button>
+
+        <div id="form-embed" style="display: none;">
+            <iframe id="embedded-form" src="" width="100%" height="500px"></iframe>
+        </div>
+        <p>I understand that this may send me to a new google form link</p>
+    </section>
+
+    <footer>
+        <p>Thank you for supporting this effort. As there are limited meals offered, we will check the availability first. We will WhatsApp you by 5 pm with the collection address if you are successful. Please collect the meal by the offered time, after which the meal may not be available.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
